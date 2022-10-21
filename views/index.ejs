@@ -10,6 +10,10 @@
 </head>
 <body>
     <h1>Proyecto Back End</h1>
+
+    <form action="/logout?_method=DELETE" method="POST">
+     <button type="submit">Log Out</button>
+    </form>
     <%- include ('./partials/form.ejs') %>
     <%- include ('./partials/listado.ejs') %>
     <%- include ('./partials/chat.ejs') %>
